@@ -5,7 +5,7 @@ export function Footer() {
         <FooterCss>
             <div className="footer-bg">
                     <div className="footerLeftSide">
-                        <h1>Shortyl</h1>
+                        <h1>Shortly</h1>
                     </div>
                     <div className="footerRightSide">
                         <div className="footerItemMenu">
