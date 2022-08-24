@@ -19,7 +19,6 @@ export const FooterCss = styled.div`
         width: 40%;
         height: 100%;
         display: flex;
-        justify-content: center;
     }
     .footerLeftSide h1{
         color: var(--white);
@@ -28,6 +27,7 @@ export const FooterCss = styled.div`
         width: 60%;
         height: 100%;
         display: flex;
+        justify-content: space-between;
     }
     .footerItemMenu h2{
         color: var(--white);
@@ -35,9 +35,15 @@ export const FooterCss = styled.div`
         margin-bottom: 20px;
     }
     .footerItemMenu a{
-        display: inline-block;
+        display: block;
+        margin-bottom: 10px;
         text-decoration: none;
         color: var(--Gray);
-        margin-bottom: 20px !important;
+    }
+    .footericons a{
+        text-decoration: none;
+        color: var(--white);
+        margin: 0 10px;
+        font-size: 18px;
     }
 `;
