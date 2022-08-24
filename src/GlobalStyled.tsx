@@ -14,10 +14,15 @@ export default createGlobalStyle`
         --Red: hsl(0, 87%, 67%);
 
         --Gray: hsl(0, 0%, 75%);
+        --Gray-Bg: hsl(225deg 33% 95%);
         --Grayish-Violet: hsl(257, 7%, 63%);
         --Very-Dark-Blue: hsl(255, 11%, 22%);
         --Very-Dark-Violet: hsl(260, 8%, 14%);
         --black: #000;
         --white: #FFF;
+    }
+
+    body{
+        overflow-x: hidden;
     }
 `;

@@ -1,12 +1,13 @@
 import styled from "styled-components";
-import bgInput from "../../Assets/Input/bgInput.svg"
+import bgInput from "../../../Assets/Input/bgInput.svg"
 
 export const InputCss = styled.div`
     width: 100vw;
-    height: 100px;
-
+    height: 120px;
+    transform: translateY(-50%);
     .input{
-        width: 70%;
+        max-width: 1100px;
+        width: 100%;
         height: 100%;
         margin: auto;
         border-radius: 10px;
@@ -18,15 +19,17 @@ export const InputCss = styled.div`
         align-items: center;
     }
     .input form input{
-        width: 700px;
+        width: 800px;
         padding: 10px;
         border-radius: 5px;
+        font-size: 16px;
+        color: var(--Gray);
     }
     .input form button{
-        padding: 10px 15px;
+        padding: 12px 20px;
         border-radius: 5px;
         background-color: var(--Cyan);
         color: var(--white);
-        margin-left: 20px;
+        margin-left: 15px;
     }
 `;

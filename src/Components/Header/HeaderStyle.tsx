@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HeaderCss = styled.div`
     width: 100vw;
     height: 100px;
-    
+
 .header{
     width: 70%;
     height: 100%;

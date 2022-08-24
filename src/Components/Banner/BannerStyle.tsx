@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const BannerCss = styled.div`
     width: 100vw;
-    height: calc(100vh - 100px);
+    height: 100vh;
 
     display: flex;
     justify-content: flex-end;
@@ -10,12 +10,15 @@ export const BannerCss = styled.div`
 
     .section-bg{
         width: 85%;
-        height: 80%;
+        height: 90%;
         display: flex;
+        gap: 60px;
     }
     .sectionLeftSide{
         width: 40%;
-        height: 100%;
+        height: 80%;
+        display: flex;
+        align-items: center;
     }
     .sectionLeftSide h1{
         font-size: 60px;
@@ -42,6 +45,6 @@ export const BannerCss = styled.div`
         justify-content: flex-end;
     }
     .sectionRightSide img{
-        width: 650px;
-}
+        height: 450px;
+    }
 `;

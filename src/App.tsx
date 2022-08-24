@@ -1,8 +1,9 @@
 import GlobalStyled from "./GlobalStyled"
 import { Header } from "./Components/Header/Header"
 import { Banner } from "./Components/Banner/Banner"
-import { Input } from "./Components/Input/Input"
 import { Statics } from "./Components/Statics/Statics"
+import { Boost } from "./Components/Boost/Boost"
+import { Footer } from "./Components/Footer/Footer"
 
 function App() {
   return (
@@ -10,8 +11,9 @@ function App() {
       <GlobalStyled />
       <Header />
       <Banner />
-      <Input />
       <Statics />
+      <Boost />
+      <Footer />
     </>
   )
 }
