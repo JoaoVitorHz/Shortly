@@ -32,4 +32,43 @@ export const InputCss = styled.div`
         color: var(--white);
         margin-left: 15px;
     }
+
+    @media (max-width: 1145px) {
+        .input{
+            max-width: 980px;
+            width: 100%;
+        }
+    }
+    @media (max-width: 1025px) {
+        .input {
+            max-width: 800px;
+        }
+        .input form input{
+            width: 500px;
+        }
+    }
+    @media (max-width: 815px) {
+        .input {
+            max-width: 700px;
+        }
+    }
+    @media (max-width: 705px) {
+        height: 160px;
+        .input {
+            max-width: 90%;
+        }
+        .input form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+    @media (max-width: 705px) {
+        .input form input{
+            width: 300px;
+        }
+    }
+
 `;

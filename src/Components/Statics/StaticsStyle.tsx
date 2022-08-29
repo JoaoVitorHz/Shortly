@@ -63,13 +63,41 @@ export const StaticsCss = styled.div`
         align-items: center;
         background-color: var(--Dark-Violet);
     }
-    .staticsItem img{
-    
-    }
     .detailed{
         transform: translateY(10%);
     }
     .customizable{
         transform: translateY(20%);
     }
+
+    @media(max-width: 819px){
+        height: 220vh;
+        .staticsItems{
+            display: flex;
+            flex-direction: column;
+        }
+        .staticsItem{
+            flex: 0;
+            width: 65%;
+            height: 500px;
+            padding: 0 20px 20px;
+            margin-bottom: 30px;
+        }
+        .statics span{
+            margin-bottom: 60px;
+        }
+        .statics{
+            margin: 10px 0 0 0;
+        }
+        .staticsItem h1{
+            font-size: 16px;
+            display: inline;
+        }
+        .blueBar{
+            display: none;
+            width: 40px;
+            height: 10px;
+            background-color: var(--Cyan);
+        }
+        }
 `;

@@ -23,4 +23,10 @@ export const BoostCss = styled.div`
         color: #FFF;
         cursor: pointer;
     }
+
+    @media (max-width: 416px) {
+        h1{
+            font-size: 25px;
+        }
+    }
 `;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const FooterCss = styled.div`
     width: 100vw;
-    height: 50vh;
+    min-height: 50vh;
     background-color: var(--Very-Dark-Violet);
     display: flex;
     justify-content: center;
@@ -28,6 +28,8 @@ export const FooterCss = styled.div`
         height: 100%;
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
+        padding-right: 20px;
     }
     .footerItemMenu h2{
         color: var(--white);
@@ -46,4 +48,5 @@ export const FooterCss = styled.div`
         margin: 0 10px;
         font-size: 18px;
     }
+
 `;

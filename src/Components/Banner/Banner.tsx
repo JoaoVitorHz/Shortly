@@ -13,7 +13,6 @@ export function Banner() {
                             </div>
                             <a href="" id="buttonBanner">Get Started</a>
                         </div>
-                        
                     </div>
                     <div className="sectionRightSide">
                         <img src={HeroImg} alt="" />

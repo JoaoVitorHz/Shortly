@@ -16,7 +16,7 @@ export function Statics() {
                             <div className="staticsImg">
                                 <img src={Recognition} alt="" />
                             </div>
-                            <h1>Brand Recognition</h1>
+                            <h1>Brand Recognition</h1><br />
                             <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum recusandae expedita dolore et aperiam similique nemo unde perspiciatis</span>
                         </div>
                         <div className="blueBar">
@@ -26,7 +26,7 @@ export function Statics() {
                             <div className="staticsImg">
                                 <img src={Records} alt="" />
                             </div>
-                            <h1>Detailed Records</h1>
+                            <h1>Detailed Records</h1><br />
                             <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum recusandae expedita dolore et aperiam similique nemo unde perspiciatis</span>
                         </div>
                         <div className="blueBar">
@@ -36,7 +36,7 @@ export function Statics() {
                             <div className="staticsImg">
                                 <img src={Customizable} alt="" />
                             </div>
-                            <h1>Fully Customizable</h1>
+                            <h1>Fully Customizable</h1><br />
                             <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum recusandae expedita dolore et aperiam similique nemo unde perspiciatis</span>
                         </div>
                     </div>
